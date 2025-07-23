@@ -4,6 +4,7 @@ import dark_arrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
+    
     <div className='hero container'>
     <div className='hero-text'>
         <h1>Track Your Child’s Spending — Smarter & Safer
@@ -12,6 +13,7 @@ Empowering parents to guide their children’s financial habits</h1>
         <button className='btn'>Start Tracking  <img src={dark_arrow} /> </button>
     </div>
     </div>
+   
   )
 }
 

@@ -5,6 +5,7 @@ import { API_PATHS } from '../../utils/apiPath';
 import axiosInstance from '../../utils/axiosInstance';
 import { validateEmail } from '../../utils/helper';
 import { UserContext } from '../../context/userContext';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const Signup = () => {
   const [fullName, setFullName] = useState('');
@@ -71,9 +72,19 @@ const Signup = () => {
       {/* ✅ Home button (top-left corner) */}
       <Link
         to="/"
-        className="absolute top-4 left-4 bg-white text-black px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition"
+        className="
+          absolute top-6 left-6
+          flex items-center gap-3
+          bg-blue-700 text-white
+          px-16 py-6
+          min-w-[320px] min-h-[72px]
+          rounded-2xl text-2xl font-bold
+          shadow-2xl hover:bg-blue-900
+          transition-all duration-300
+        "
       >
-        ← Home
+        <AiOutlineArrowLeft className="text-3xl" />
+        Home
       </Link>
 
       <div className="wrapperb">

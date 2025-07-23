@@ -7,6 +7,7 @@ import u2 from '../../assets/user-2.png'
 import u3 from '../../assets/user-3.png'
 import u4 from '../../assets/user-4.png'
 
+
 const Testimonial = () => {
     const slider = useRef();
     const tx = useRef(0);
@@ -26,6 +27,7 @@ const Testimonial = () => {
     }
 
     return (
+     
         <div className='testimonials'>
             <img src={next_icon} alt="" className='next-btn' onClick={sliderforward} />
             <img src={back_icon} alt="" className='back-btn' onClick={sliderbackward} />
@@ -52,6 +54,7 @@ const Testimonial = () => {
                 </ul>
             </div>
         </div>
+        
     )
 }
 

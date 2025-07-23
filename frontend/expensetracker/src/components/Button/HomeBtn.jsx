@@ -10,7 +10,7 @@ const HomeBtn = ({ to = '/', label = 'Back to Homepage', className = '' }) => {
   return (
     <button
       onClick={() => navigate(to)}
-      className={`flex items-center gap-2 bg-white text-gray-800 px-4 py-2 rounded-full shadow hover:bg-gray-100 transition ${className}`}
+      className={`flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full shadow hover:bg-gray-100 transition ${className}`}
     >
       <AiOutlineHome className="text-xl" />
       <span className="font-medium">{label}</span>

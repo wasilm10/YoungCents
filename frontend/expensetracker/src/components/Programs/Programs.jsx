@@ -7,8 +7,10 @@ import program_icon1 from '../../assets/c.png';
 import program_icon2 from '../../assets/r.png';
 import program_icon3 from '../../assets/p.png';
 
+
 const Programs = () => {
   return (
+    
     <div className='programs'>
       <div className='program'>
         <img src={f1} alt="Scholarship Support" />
@@ -46,6 +48,7 @@ const Programs = () => {
         </div>
       </div>
     </div>
+   
   );
 };
 

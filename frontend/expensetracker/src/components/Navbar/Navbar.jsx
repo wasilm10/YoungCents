@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // ✅ Needed for routing
 import './Navbar.css';
 import logo from '../../assets/l1.png';
 
+
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -15,6 +16,7 @@ const Navbar = () => {
   }, []);
 
   return (
+   
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img src={logo} alt="logo" className="logo" />
       <ul>
@@ -24,6 +26,7 @@ const Navbar = () => {
         <li><Link to="/dashboard">Dashboard</Link></li>
       </ul>
     </nav>
+  
   );
 };
 

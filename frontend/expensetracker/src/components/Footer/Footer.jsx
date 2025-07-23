@@ -1,8 +1,10 @@
 import React from 'react'
 import './Footer.css'
 
+
 const Footer = () => {
   return (
+
     <div className='footer'>
         <p> © 2025 YoungCents. All rights reserved.</p>
         <ul>
@@ -10,6 +12,7 @@ const Footer = () => {
             <li>Privacy Policy</li>
         </ul>
     </div>
+   
   )
 }
 

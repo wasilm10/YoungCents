@@ -6,6 +6,7 @@ import p from '../../assets/phone-icon.png'
 import l from '../../assets/location-icon.png'
 import arrow from '../../assets/white-arrow.png'
 
+
 const Contact = () => {
     const [result, setResult] = React.useState("");
 
@@ -33,6 +34,7 @@ const Contact = () => {
   };
 
   return (
+    
     <div className='contact'>
         <div className="contact_col">
             <h3>Send us a message <img src={msg_icon} alt="" /></h3>
@@ -58,6 +60,7 @@ const Contact = () => {
             <span>{result} </span>
         </div>
     </div>
+    
   )
 }
 

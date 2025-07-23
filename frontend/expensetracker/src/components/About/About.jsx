@@ -3,8 +3,10 @@ import './About.css'
 import about_img from '../../assets/parent.jpeg'
 import playicon from '../../assets/play-icon.png'
 
+
 const About = ({setPlayState}) => {
   return (
+    
     <div className='about'>
         <div className="about_left">
             <img src={about_img} alt="" className='about-img'/>
@@ -22,6 +24,7 @@ const About = ({setPlayState}) => {
         </div>
 
     </div>
+    
   )
 }
 
