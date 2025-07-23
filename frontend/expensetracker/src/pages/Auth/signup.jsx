@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import './Signup.css';
+import './signup.css';
 import { API_PATHS } from '../../utils/apiPath';
 import axiosInstance from '../../utils/axiosInstance';
 import { validateEmail } from '../../utils/helper';
