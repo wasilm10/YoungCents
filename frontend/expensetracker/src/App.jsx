@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Income from './Dashboard/Income';
 import Expense from './Dashboard/Expense';
 import Login from './pages/Auth/Login';
-import Signup from './pages/Auth/Signup';
+import Signup from './pages/Auth/signup';
 import Home from './Dashboard/Home';
 import Homepage from './pages/Homepage';
 import UserProvider from './context/userContext';
