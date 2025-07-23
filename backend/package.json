@@ -1,7 +1,7 @@
 {
   "name": "expensse-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for expense management app",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,10 +12,10 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "dotenv": "^16.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.6.0",
-    "cors": "^2.8.5",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.0"
   }
 }
