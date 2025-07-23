@@ -1,0 +1,74 @@
+.wrapperb {
+  position: relative;
+  width: 420px;
+  height: 520px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  color: #fff;
+  margin: 50px auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.form-box {
+  width: 100%;
+}
+
+form h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
